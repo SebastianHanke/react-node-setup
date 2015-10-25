@@ -1,0 +1,25 @@
+{
+  "name": "react-node-setup",
+  "version": "1.0.0",
+  "description": "developing a react app with nodejs server using webpack",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SebastianHanke/react-node-setup.git"
+  },
+  "keywords": [
+    "react",
+    "node",
+    "webpack",
+    "setup"
+  ],
+  "author": "Sebastian Hanke",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SebastianHanke/react-node-setup/issues"
+  },
+  "homepage": "https://github.com/SebastianHanke/react-node-setup#readme"
+}
