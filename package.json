@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server",
+    "build": "./node_modules/.bin/webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -24,8 +25,19 @@
   },
   "homepage": "https://github.com/SebastianHanke/react-node-setup#readme",
   "devDependencies": {
+    "autoprefixer": "^6.0.3",
+    "babel-core": "^5.8.29",
+    "babel-loader": "^5.3.2",
+    "css-loader": "^0.21.0",
+    "extract-text-webpack-plugin": "^0.8.2",
+    "file-loader": "^0.8.4",
     "html-webpack-plugin": "^1.6.2",
+    "postcss-loader": "^0.7.0",
+    "style-loader": "^0.13.0",
+    "stylus-loader": "^1.4.0",
+    "url-loader": "^0.5.6",
     "webpack": "^1.12.2",
-    "webpack-dev-server": "^1.12.1"
+    "webpack-dev-server": "^1.12.1",
+    "webpack-merge": "^0.2.0"
   }
 }
