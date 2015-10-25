@@ -4,6 +4,7 @@
   "description": "developing a react app with nodejs server using webpack",
   "main": "index.js",
   "scripts": {
+    "start": "webpack-dev-server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -21,5 +22,10 @@
   "bugs": {
     "url": "https://github.com/SebastianHanke/react-node-setup/issues"
   },
-  "homepage": "https://github.com/SebastianHanke/react-node-setup#readme"
+  "homepage": "https://github.com/SebastianHanke/react-node-setup#readme",
+  "devDependencies": {
+    "html-webpack-plugin": "^1.6.2",
+    "webpack": "^1.12.2",
+    "webpack-dev-server": "^1.12.1"
+  }
 }
