@@ -1,5 +1,6 @@
 var component = require('./component');
 var app = document.createElement('div');
+import React from 'react';
 
 /*
 * import style files into project

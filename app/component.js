@@ -1,3 +1,5 @@
+import React from 'react';
+
 module.exports = function () {
     var element = document.createElement('h1');
 
